@@ -1,3 +1,7 @@
 [workspace]
 resolver = "3"
 members = ["tournamentz-engine"]
+
+[workspace.dependencies]
+uuid = {version = "1.18.1", features = ["v4"]}
+
